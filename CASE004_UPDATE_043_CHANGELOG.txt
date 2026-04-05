@@ -1,6 +1,0 @@
-CASE 004 UPDATE 043
-
-Verified features included:
-- Mixed the final accusation answer order
-- Correct answers are no longer always placed as the first option
-- Correct answer values remain unchanged
