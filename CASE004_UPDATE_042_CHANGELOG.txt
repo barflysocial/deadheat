@@ -1,0 +1,9 @@
+CASE 004 UPDATE 042
+
+Verified features included:
+- Added the between-round countdown timer with checkpoint description text like Case 003
+- Countdown overlay now shows:
+  - Checkpoint Complete
+  - the checkpoint explanation text
+  - Next Round in
+  - countdown number

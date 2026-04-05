@@ -1,0 +1,6 @@
+CASE 004 UPDATE 044
+
+Verified features included:
+- Added a Storyline tab to Case 004
+- Added a narrative storyline intro to set the scene
+- Added a Go to Scene button inside the Storyline tab
