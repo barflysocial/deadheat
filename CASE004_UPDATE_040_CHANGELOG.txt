@@ -1,0 +1,13 @@
+CASE 004 UPDATE 040
+
+Verified features included:
+- Fixed the Dead Heat blurred background so it renders in the correct visible layer behind the UI
+- Rebuilt the background as a fixed image layer plus a fixed dark overlay layer
+- Kept the Dead Heat hero graphic at the top of the screen in the header
+
+Carried forward from Update 039:
+- Added the new Dead Heat artwork to Case 004
+- Placed the graphic at the top of the screen in the header
+- Added a blurred darker background using the same graphic
+- Included the Case 004 artwork file in the bundle
+- Carries forward the Case 004 master build features through Update 038

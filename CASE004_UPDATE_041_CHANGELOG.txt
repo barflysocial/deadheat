@@ -1,0 +1,7 @@
+CASE 004 UPDATE 041
+
+Verified features included:
+- Fixed the final accusation flow for Case 004
+- Final submit now triggers the full success/retry result flow box
+- Success result now shows the result summary in the unlock box
+- Partial and Failed now show the result summary in the retry box
