@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: mystery-case-004
+    runtime: static
+    staticPublishPath: .
