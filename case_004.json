@@ -1,0 +1,942 @@
+{
+  "case": {
+    "id": "case_004_dead_heat",
+    "title": "Dead Heat",
+    "subtitle": "A murder at the rail",
+    "difficulty": "Senior Detective",
+    "setting": "Race night at a Louisiana horse track. Jockey Julian Cross is found dead near the service corridor between the paddock and stable lane. Officials call it a horse accident. The evidence says otherwise.",
+    "victim": "Julian Cross",
+    "finalQuestions": [
+      {
+        "id": "killer",
+        "label": "Who killed Julian Cross?",
+        "options": [
+          [
+            "diane_voss",
+            "Diane Voss"
+          ],
+          [
+            "marlon_price",
+            "Marlon Price"
+          ],
+          [
+            "rafael_morrow",
+            "Rafael Morrow"
+          ],
+          [
+            "eddie_vale",
+            "Eddie Vale"
+          ],
+          [
+            "leah_sloane",
+            "Leah Sloane"
+          ],
+          [
+            "tommy_brigg",
+            "Tommy Brigg"
+          ]
+        ],
+        "correct": "marlon_price"
+      },
+      {
+        "id": "motive",
+        "label": "Why was Julian killed?",
+        "options": [
+          [
+            "rider_jealousy",
+            "A rival jockey wanted him out of the way"
+          ],
+          [
+            "expose_unfit_horse_betting_scheme",
+            "He was going to expose that Midnight Halo was unfit to race and tied to betting manipulation"
+          ],
+          [
+            "personal_debt",
+            "He owed money to the wrong people"
+          ],
+          [
+            "stable_theft",
+            "He discovered stolen tack and stable supplies"
+          ]
+        ],
+        "correct": "expose_unfit_horse_betting_scheme"
+      },
+      {
+        "id": "method",
+        "label": "How was the murder carried out?",
+        "options": [
+          [
+            "horse_kick",
+            "He was killed instantly by a horse kick in the lane"
+          ],
+          [
+            "saddle_crush",
+            "Loose racing gear caused a fatal crush injury"
+          ],
+          [
+            "attacked_and_staged",
+            "Julian was attacked in the service/tack corridor and the scene was staged as a horse accident"
+          ],
+          [
+            "fall_from_rail",
+            "He slipped from the paddock rail and struck his head"
+          ]
+        ],
+        "correct": "attacked_and_staged"
+      },
+      {
+        "id": "proof",
+        "label": "What is the strongest proof clue?",
+        "options": [
+          [
+            "odds_note",
+            "Tommy's odds call note"
+          ],
+          [
+            "wrap_fibers",
+            "Fresh wrap fibers in the stall"
+          ],
+          [
+            "threat_statement",
+            "Rafael's public threat"
+          ],
+          [
+            "preimpact_incapacitation",
+            "The pre-impact incapacitation finding combined with the horse condition evidence"
+          ]
+        ],
+        "correct": "preimpact_incapacitation"
+      }
+    ]
+  },
+  "suspects": [
+    {
+      "id": "marlon_price",
+      "name": "Marlon Price",
+      "role": "Trainer",
+      "public_read": "Experienced, controlled, and defensive. Trainer of Midnight Halo. Had the most to lose if the horse was scratched."
+    },
+    {
+      "id": "rafael_morrow",
+      "name": "Rafael Morrow",
+      "role": "Rival Jockey",
+      "public_read": "Intense and openly hostile toward Julian. Their public argument makes Rafael look dangerous immediately."
+    },
+    {
+      "id": "diane_voss",
+      "name": "Diane Voss",
+      "role": "Track Veterinarian",
+      "public_read": "Precise, clinical, and withholding. Knows more about Midnight Halo’s real condition than she first admits."
+    },
+    {
+      "id": "tommy_brigg",
+      "name": "Tommy Brigg",
+      "role": "Bookie",
+      "public_read": "Smooth and well-connected. Tracks odds movement and knows exactly how much money was riding on Midnight Halo."
+    },
+    {
+      "id": "leah_sloane",
+      "name": "Leah Sloane",
+      "role": "Bettor / Owner Proxy",
+      "public_read": "Wealthy, polished, and impatient. Pressured multiple people to keep the horse active."
+    },
+    {
+      "id": "eddie_vale",
+      "name": "Eddie Vale",
+      "role": "Stable Hand",
+      "public_read": "Nervous and inconsistent. Saw movement in restricted areas and changed parts of his story."
+    }
+  ],
+  "evidence": {
+    "crushed_straw_pattern": {
+      "title": "Crushed Straw Pattern",
+      "description": "The straw beneath Julian's body was compressed differently from the wider disturbance nearby, suggesting placement after the initial struggle.",
+      "tags": [
+        "scene",
+        "staging"
+      ]
+    },
+    "tack_chest_corner_blood": {
+      "title": "Tack Chest Corner Blood",
+      "description": "A small blood transfer on the corner of a tack chest suggests Julian first struck something indoors before ending up near the lane.",
+      "tags": [
+        "scene",
+        "impact"
+      ]
+    },
+    "broken_stirrup_leather": {
+      "title": "Broken Stirrup Leather",
+      "description": "The leather was cut under tension rather than snapped in panic, weakening the idea of a chaotic horse accident.",
+      "tags": [
+        "equipment",
+        "staging"
+      ]
+    },
+    "stable_wall_scuff_mark": {
+      "title": "Stable Wall Scuff Mark",
+      "description": "A shoulder-height scuff shows Julian contacted the wall before going down.",
+      "tags": [
+        "scene",
+        "impact"
+      ]
+    },
+    "clean_boot_sole": {
+      "title": "Clean Boot Sole",
+      "description": "Julian's boot sole lacks the mud-straw mix expected if he walked through the lane as claimed.",
+      "tags": [
+        "scene",
+        "timeline"
+      ]
+    },
+    "midnight_halo_tendon_swelling": {
+      "title": "Midnight Halo Tendon Swelling",
+      "description": "Fresh foreleg swelling indicates Midnight Halo should have been scratched from the race.",
+      "tags": [
+        "horse",
+        "medical"
+      ]
+    },
+    "pain_masking_injection_site": {
+      "title": "Pain Masking Injection Site",
+      "description": "A recent injection mark suggests treatment intended to hide pain rather than address a resolved issue.",
+      "tags": [
+        "horse",
+        "medication"
+      ]
+    },
+    "uneven_sweat_pattern": {
+      "title": "Uneven Sweat Pattern",
+      "description": "The horse's sweat pattern indicates limited controlled movement, not a full prep routine.",
+      "tags": [
+        "horse",
+        "prep"
+      ]
+    },
+    "fresh_wrap_fibers": {
+      "title": "Fresh Wrap Fibers",
+      "description": "Loose wrap fibers in the stall indicate a late rewrapping that conflicts with the official prep timeline.",
+      "tags": [
+        "horse",
+        "timeline"
+      ]
+    },
+    "silver_regent_prep_log": {
+      "title": "Silver Regent Prep Log",
+      "description": "Silver Regent's prep log is complete and normal, highlighting the suspicious gaps around Midnight Halo.",
+      "tags": [
+        "timeline",
+        "comparison"
+      ]
+    },
+    "vet_clearance_addendum": {
+      "title": "Vet Clearance Addendum",
+      "description": "A handwritten addendum softened the original veterinary concern about Midnight Halo's condition.",
+      "tags": [
+        "vet",
+        "paperwork"
+      ]
+    },
+    "preimpact_incapacitation": {
+      "title": "Pre-Impact Incapacitation Finding",
+      "description": "Medical review indicates Julian was already compromised before the final fatal impact.",
+      "tags": [
+        "medical",
+        "method"
+      ]
+    },
+    "injury_angle_report": {
+      "title": "Injury Angle Report",
+      "description": "The fatal injury angle does not match the described horse kick or accidental trampling scenario.",
+      "tags": [
+        "medical",
+        "scene"
+      ]
+    },
+    "sedation_trace_summary": {
+      "title": "Sedation Trace Summary",
+      "description": "Trace substances point to recent treatment pressure around the horse, increasing motive to silence Julian.",
+      "tags": [
+        "medical",
+        "motive"
+      ]
+    },
+    "tack_room_signout_sheet": {
+      "title": "Tack Room Sign-Out Sheet",
+      "description": "A tack item was logged twice under conflicting times, suggesting timeline manipulation.",
+      "tags": [
+        "timeline",
+        "equipment"
+      ]
+    },
+    "service_corridor_camera_gap": {
+      "title": "Service Corridor Camera Gap",
+      "description": "A blind spot between paddock access and the tack corridor created an ideal hidden movement route.",
+      "tags": [
+        "route",
+        "timeline"
+      ]
+    },
+    "stall_mucking_log": {
+      "title": "Stall Mucking Log",
+      "description": "A stall cleaning time conflicts with a rider's account of who was present and when.",
+      "tags": [
+        "timeline",
+        "stable"
+      ]
+    },
+    "paddock_gate_latch_mark": {
+      "title": "Paddock Gate Latch Mark",
+      "description": "Fresh latch wear suggests hurried movement through a restricted access point.",
+      "tags": [
+        "route",
+        "scene"
+      ]
+    },
+    "bandage_disposal_bin": {
+      "title": "Bandage Disposal Bin",
+      "description": "Used wraps were discarded later than Marlon claimed the horse had been cleared.",
+      "tags": [
+        "horse",
+        "timeline"
+      ]
+    },
+    "rafaels_threat_statement": {
+      "title": "Rafael's Threat Statement",
+      "description": "Multiple witnesses heard Rafael threaten Julian after their public argument.",
+      "tags": [
+        "suspect",
+        "motive"
+      ]
+    },
+    "eddies_revised_timeline": {
+      "title": "Eddie's Revised Timeline",
+      "description": "Eddie changed his statement after first denying he saw Marlon in the service corridor.",
+      "tags": [
+        "witness",
+        "timeline"
+      ]
+    },
+    "dianes_delayed_admission": {
+      "title": "Diane's Delayed Admission",
+      "description": "Diane finally admits Midnight Halo's condition was worse than initially reported.",
+      "tags": [
+        "vet",
+        "coverup"
+      ]
+    },
+    "tommys_odds_call_note": {
+      "title": "Tommy's Odds Call Note",
+      "description": "A betting note shows concern over a late scratch affecting major money.",
+      "tags": [
+        "betting",
+        "motive"
+      ]
+    },
+    "leahs_pressure_text": {
+      "title": "Leah's Pressure Text",
+      "description": "A text message pushes to keep Midnight Halo active no matter what.",
+      "tags": [
+        "motive",
+        "pressure"
+      ]
+    },
+    "julians_pocket_note": {
+      "title": "Julian's Pocket Note",
+      "description": "Julian wrote down 'Halo,' 'clearance,' and 'money' before his death.",
+      "tags": [
+        "victim",
+        "motive"
+      ]
+    }
+  },
+  "timeline": {
+    "public": [
+      {
+        "time": "5:10 PM",
+        "text": "Final stable prep begins for the feature race."
+      },
+      {
+        "time": "5:18 PM",
+        "text": "Midnight Halo is rewrapped in the stall area."
+      },
+      {
+        "time": "5:24 PM",
+        "text": "Diane Voss notes concern about Midnight Halo's foreleg."
+      },
+      {
+        "time": "5:31 PM",
+        "text": "Julian Cross argues quietly with Marlon Price near the tack room."
+      },
+      {
+        "time": "5:36 PM",
+        "text": "Rafael Morrow has a public confrontation with Julian near paddock entry."
+      },
+      {
+        "time": "5:41 PM",
+        "text": "Tommy Brigg places a call about odds movement on the feature race."
+      },
+      {
+        "time": "5:44 PM",
+        "text": "Leah Sloane sends pressure text insisting the horse stays active."
+      },
+      {
+        "time": "5:47 PM",
+        "text": "Eddie Vale reports seeing movement through the service corridor."
+      },
+      {
+        "time": "5:49 PM",
+        "text": "Julian is last seen heading toward the tack/service corridor."
+      },
+      {
+        "time": "5:56 PM",
+        "text": "Julian is found near the stable lane, with the scene initially treated as a horse accident."
+      }
+    ]
+  },
+  "hints": {
+    "1": "Focus on physical contradictions first. The scene itself weakens the accident theory before motive does.",
+    "2": "Track who could move through the service corridor without being clearly seen.",
+    "3": "Use Midnight Halo's condition to test whether witness statements are believable.",
+    "4": "Not every lie is about murder. Some lies protect money, pressure, or reputations.",
+    "5": "The killer needed access, motive, and knowledge of how to fake a horse-related accident."
+  },
+  "interviews": {
+    "marlon_price": {
+      "name": "Marlon Price",
+      "intro": "Marlon folds a saddle cloth over one arm and barely looks at you. 'Julian liked to make noise when he thought he'd found something. Doesn't mean he was right.'",
+      "topics": [
+        {
+          "id": "marlon_accusation",
+          "label": "Julian's accusation",
+          "response": "Julian said Midnight Halo should be scratched. I told him he was out of line and out of his lane."
+        },
+        {
+          "id": "marlon_horse_condition",
+          "label": "Midnight Halo's condition",
+          "response": "The horse was tight, not lame. There's a difference. People love to call a horse unfit when they don't understand prep.",
+          "requires_evidence": [
+            "midnight_halo_tendon_swelling"
+          ]
+        },
+        {
+          "id": "marlon_corridor",
+          "label": "Service corridor movement",
+          "response": "I was in the paddock sequence, not wandering service halls. Ask the stable crew if you're lost.",
+          "requires_evidence": [
+            "eddies_revised_timeline"
+          ]
+        },
+        {
+          "id": "marlon_wraps",
+          "label": "Why were the wraps changed?",
+          "response": "Because prep changed. Horses get adjusted. That is not a crime unless you need it to be one.",
+          "requires_evidence": [
+            "bandage_disposal_bin"
+          ]
+        }
+      ]
+    },
+    "rafael_morrow": {
+      "name": "Rafael Morrow",
+      "intro": "Rafael leans back with his jaw tight. 'Yeah, I argued with him. Half this track argued with him. That doesn't make me your killer.'",
+      "topics": [
+        {
+          "id": "rafael_argument",
+          "label": "Your argument with Julian",
+          "response": "He liked sticking his nose into everybody's ride. I told him to worry about his own horse."
+        },
+        {
+          "id": "rafael_last_seen",
+          "label": "Last time you saw Julian",
+          "response": "Near paddock entry. He was heated, distracted, and looking for somebody."
+        },
+        {
+          "id": "rafael_bayou_ember",
+          "label": "Bayou Ember's prep timing",
+          "response": "My horse was being settled, not held up in service lanes. You can check the tack sheet.",
+          "requires_evidence": [
+            "tack_room_signout_sheet"
+          ]
+        },
+        {
+          "id": "rafael_threat",
+          "label": "Did you threaten him?",
+          "response": "I said things. Everybody heard me. That's different from following through.",
+          "requires_evidence": [
+            "rafaels_threat_statement"
+          ]
+        }
+      ]
+    },
+    "diane_voss": {
+      "name": "Diane Voss",
+      "intro": "Diane removes one glove finger by finger before speaking. 'If you want truth, ask precise questions. I'm not here to clean up everyone else's panic.'",
+      "topics": [
+        {
+          "id": "diane_exam",
+          "label": "Midnight Halo's exam",
+          "response": "There was inflammation. Whether it rose to scratch level depends on pressure, judgment, and who is pretending not to hear me."
+        },
+        {
+          "id": "diane_clearance",
+          "label": "Clearance paperwork",
+          "response": "The original note was cautious. The addendum softened it. I did not create that pressure in a vacuum.",
+          "requires_evidence": [
+            "vet_clearance_addendum"
+          ]
+        },
+        {
+          "id": "diane_accident_claim",
+          "label": "Could the horse have caused this?",
+          "response": "Not in the clean, simple way people are describing. The injury pattern does not fit the story being sold.",
+          "requires_evidence": [
+            "injury_angle_report"
+          ]
+        },
+        {
+          "id": "diane_medication",
+          "label": "Medication use",
+          "response": "There are signs of recent treatment. Whether it was therapeutic or deceptive is the more useful question.",
+          "requires_evidence": [
+            "pain_masking_injection_site"
+          ]
+        }
+      ]
+    },
+    "tommy_brigg": {
+      "name": "Tommy Brigg",
+      "intro": "Tommy smiles like you're both in on a joke. 'People get real interested in odds after something bad happens. Funny how that works.'",
+      "topics": [
+        {
+          "id": "tommy_odds",
+          "label": "Odds movement",
+          "response": "When a favorite might scratch, phones ring. That's not sinister. That's racing."
+        },
+        {
+          "id": "tommy_staff_contact",
+          "label": "Your contact with stable staff",
+          "response": "I talk to people. That doesn't mean I walk horses, wrap legs, or kill jockeys.",
+          "requires_evidence": [
+            "tommys_odds_call_note"
+          ]
+        },
+        {
+          "id": "tommy_halo_active",
+          "label": "Midnight Halo staying active",
+          "response": "Plenty of people needed that horse in the race. I wasn't the only one with money sweating.",
+          "requires_evidence": [
+            "leahs_pressure_text"
+          ]
+        },
+        {
+          "id": "tommy_julian_problem",
+          "label": "Julian as a threat",
+          "response": "He was becoming a problem because he was loud. Loud gets expensive.",
+          "requires_evidence": [
+            "julians_pocket_note"
+          ]
+        }
+      ]
+    },
+    "leah_sloane": {
+      "name": "Leah Sloane",
+      "intro": "Leah does not sit. 'If this is about race operations, speak clearly. I do not enjoy being dragged into stable gossip.'",
+      "topics": [
+        {
+          "id": "leah_stake",
+          "label": "Your stake in the race",
+          "response": "I had expectations, yes. That is not the same as desperation."
+        },
+        {
+          "id": "leah_pressure",
+          "label": "Pressure to keep the horse running",
+          "response": "I expected professionalism. If someone interpreted that as pressure, that reflects on them.",
+          "requires_evidence": [
+            "leahs_pressure_text"
+          ]
+        },
+        {
+          "id": "leah_marlon",
+          "label": "Your relationship with Marlon",
+          "response": "I fund outcomes. He manages horses. Do not confuse influence with control."
+        },
+        {
+          "id": "leah_julian",
+          "label": "Julian's threat to expose things",
+          "response": "He was emotional and self-important. Men like that mistake attention for leverage.",
+          "requires_evidence": [
+            "julians_pocket_note"
+          ]
+        }
+      ]
+    },
+    "eddie_vale": {
+      "name": "Eddie Vale",
+      "intro": "Eddie keeps glancing toward the barn doors. 'I didn't do nothing. I just saw people where they shouldn't have been, that's all.'",
+      "topics": [
+        {
+          "id": "eddie_corridor",
+          "label": "What did you see in the corridor?",
+          "response": "I saw movement where there shouldn't have been movement. I didn't want to be part of it."
+        },
+        {
+          "id": "eddie_timeline_change",
+          "label": "Why did your timeline change?",
+          "response": "Because the first time I answered, I was scared. The second time, I was still scared.",
+          "requires_evidence": [
+            "eddies_revised_timeline"
+          ]
+        },
+        {
+          "id": "eddie_wraps",
+          "label": "Midnight Halo's wraps",
+          "response": "They got changed late. Later than they should've, if you ask me.",
+          "requires_evidence": [
+            "fresh_wrap_fibers"
+          ]
+        },
+        {
+          "id": "eddie_marlon_route",
+          "label": "Did you see Marlon with Julian?",
+          "response": "Not face-to-face the whole time. But I saw Marlon go where he said he never went.",
+          "requires_evidence": [
+            "service_corridor_camera_gap"
+          ]
+        }
+      ]
+    }
+  },
+  "scenes": {
+    "scene_001_body_position": {
+      "round": 1,
+      "title": "Body Position",
+      "text": "Julian Cross lies near the stable lane, just far enough from the tack corridor to support an accident story. But the straw pattern and surrounding damage do not line up cleanly.",
+      "grantsEvidence": [
+        "crushed_straw_pattern",
+        "stable_wall_scuff_mark",
+        "clean_boot_sole"
+      ],
+      "choices": [
+        [
+          "Check the tack area",
+          "scene_002_tack_area"
+        ],
+        [
+          "Review public statements",
+          "scene_003_public_conflict"
+        ]
+      ]
+    },
+    "scene_002_tack_area": {
+      "round": 1,
+      "title": "Tack Area",
+      "text": "The tack corridor shows signs of a more controlled struggle than the open lane outside. A tack chest corner bears a small blood transfer.",
+      "grantsEvidence": [
+        "tack_chest_corner_blood",
+        "broken_stirrup_leather"
+      ]
+    },
+    "scene_003_public_conflict": {
+      "round": 1,
+      "title": "Public Conflict",
+      "text": "Witnesses confirm Julian argued publicly with Rafael, but physical evidence suggests the death scene cannot be explained by that confrontation alone.",
+      "grantsEvidence": [
+        "rafaels_threat_statement"
+      ]
+    },
+    "scene_004_checkpoint": {
+      "round": 1,
+      "type": "checkpoint",
+      "prompt": "What most strongly suggests Julian's death scene was staged?",
+      "answers": [
+        [
+          "Blood transfer and impact signs point to an earlier indoor struggle",
+          true
+        ],
+        [
+          "Rafael argued with Julian earlier",
+          false
+        ],
+        [
+          "The body was found near the stable lane",
+          false
+        ],
+        [
+          "Midnight Halo was the favorite",
+          false
+        ]
+      ],
+      "correct": "The strongest early contradiction is physical. The tack chest blood and wall scuff suggest Julian was first injured in the corridor area before being placed near the lane.",
+      "incorrect": "Focus on the physical evidence first. The argument is suspicious, but it does not explain the scene mechanics.",
+      "next": "scene_005_rider_accounts"
+    },
+    "scene_005_rider_accounts": {
+      "round": 2,
+      "title": "Rider Accounts",
+      "text": "The jockeys agree on very little, but several statements cannot all be true at once.",
+      "grantsEvidence": [
+        "service_corridor_camera_gap",
+        "tack_room_signout_sheet"
+      ],
+      "choices": [
+        [
+          "Interview Rafael Morrow",
+          "__INTERVIEW__:rafael_morrow"
+        ],
+        [
+          "Interview Eddie Vale",
+          "__INTERVIEW__:eddie_vale"
+        ]
+      ]
+    },
+    "scene_006_stable_logs": {
+      "round": 2,
+      "title": "Stable Logs",
+      "text": "Routine logs show inconsistencies around cleaning, tack use, and who could have been in the corridor at the critical window.",
+      "grantsEvidence": [
+        "stall_mucking_log",
+        "paddock_gate_latch_mark",
+        "eddies_revised_timeline"
+      ]
+    },
+    "scene_007_checkpoint": {
+      "round": 2,
+      "type": "checkpoint",
+      "prompt": "Which new clue most weakens the witness timeline?",
+      "answers": [
+        [
+          "The service corridor camera gap",
+          true
+        ],
+        [
+          "A betting note about odds",
+          false
+        ],
+        [
+          "A crowd argument in the paddock",
+          false
+        ],
+        [
+          "The race purse amount",
+          false
+        ]
+      ],
+      "correct": "The camera gap matters because it creates a hidden movement route. Once you know that blind spot exists, multiple witness statements become less reliable.",
+      "incorrect": "Look for the clue that changes how people could move unseen, not just what motivated them.",
+      "next": "scene_008_horse_condition"
+    },
+    "scene_008_horse_condition": {
+      "round": 3,
+      "title": "Horse Condition",
+      "text": "Midnight Halo's physical state becomes the central challenge to the official version of events.",
+      "grantsEvidence": [
+        "midnight_halo_tendon_swelling",
+        "pain_masking_injection_site",
+        "uneven_sweat_pattern",
+        "fresh_wrap_fibers"
+      ],
+      "choices": [
+        [
+          "Interview Diane Voss",
+          "__INTERVIEW__:diane_voss"
+        ],
+        [
+          "Compare prep records",
+          "scene_009_prep_records"
+        ]
+      ]
+    },
+    "scene_009_prep_records": {
+      "round": 3,
+      "title": "Prep Records",
+      "text": "Compared against other horses, Midnight Halo's prep timeline is full of irregularities.",
+      "grantsEvidence": [
+        "silver_regent_prep_log",
+        "vet_clearance_addendum",
+        "dianes_delayed_admission"
+      ]
+    },
+    "scene_010_checkpoint": {
+      "round": 3,
+      "type": "checkpoint",
+      "prompt": "What horse evidence most undermines the official accident story?",
+      "answers": [
+        [
+          "Midnight Halo showed fresh tendon swelling and should not have been fully active",
+          true
+        ],
+        [
+          "Midnight Halo was a crowd favorite",
+          false
+        ],
+        [
+          "Silver Regent had a normal prep log",
+          false
+        ],
+        [
+          "The jockeys were under pressure",
+          false
+        ]
+      ],
+      "correct": "If Midnight Halo was not fit for normal prep and handling, then the story built around stable chaos and horse reaction becomes much weaker.",
+      "incorrect": "Choose the clue that physically limits what the horse could have been doing.",
+      "next": "scene_011_money_pressure"
+    },
+    "scene_011_money_pressure": {
+      "round": 4,
+      "title": "Money Pressure",
+      "text": "Betting pressure, owner influence, and hidden financial risk begin to explain why so many people lied.",
+      "grantsEvidence": [
+        "tommys_odds_call_note",
+        "leahs_pressure_text",
+        "julians_pocket_note"
+      ],
+      "choices": [
+        [
+          "Interview Tommy Brigg",
+          "__INTERVIEW__:tommy_brigg"
+        ],
+        [
+          "Interview Leah Sloane",
+          "__INTERVIEW__:leah_sloane"
+        ]
+      ]
+    },
+    "scene_012_late_wraps": {
+      "round": 4,
+      "title": "Late Wraps",
+      "text": "Discarded wraps and timeline slippage show Midnight Halo's condition was being managed far later than Marlon claimed.",
+      "grantsEvidence": [
+        "bandage_disposal_bin"
+      ]
+    },
+    "scene_013_checkpoint": {
+      "round": 4,
+      "type": "checkpoint",
+      "prompt": "What is the strongest motive pattern emerging?",
+      "answers": [
+        [
+          "A betting-linked effort to keep an unfit horse in the race",
+          true
+        ],
+        [
+          "Simple rider jealousy",
+          false
+        ],
+        [
+          "Personal revenge over a past loss",
+          false
+        ],
+        [
+          "A stable hand's anger",
+          false
+        ]
+      ],
+      "correct": "By this point, the evidence shows pressure from money and race outcome manipulation, not just personal rivalry.",
+      "incorrect": "Think bigger than public conflict. The motive is tied to risk, money, and exposure.",
+      "next": "scene_014_medical_reconstruction"
+    },
+    "scene_014_medical_reconstruction": {
+      "round": 5,
+      "title": "Medical Reconstruction",
+      "text": "The final medical findings destroy the horse accident narrative and point to deliberate staging.",
+      "grantsEvidence": [
+        "preimpact_incapacitation",
+        "injury_angle_report",
+        "sedation_trace_summary"
+      ],
+      "choices": [
+        [
+          "Review the full route",
+          "scene_015_route_reconstruction"
+        ],
+        [
+          "Prepare final accusation",
+          "scene_016_final"
+        ]
+      ]
+    },
+    "scene_015_route_reconstruction": {
+      "round": 5,
+      "title": "Route Reconstruction",
+      "text": "The service corridor blind spot, the false body placement, and Marlon's timeline contradictions now align into one coherent sequence.",
+      "grantsEvidence": []
+    },
+    "scene_016_checkpoint": {
+      "round": 5,
+      "type": "checkpoint",
+      "prompt": "What proves Julian was not killed in a true horse accident?",
+      "answers": [
+        [
+          "Julian was incapacitated before the final impact and the injury pattern does not match the claimed accident",
+          true
+        ],
+        [
+          "Riders often lie",
+          false
+        ],
+        [
+          "The horse was expensive",
+          false
+        ],
+        [
+          "The crowd was distracted",
+          false
+        ]
+      ],
+      "correct": "The medical findings and impact geometry prove the stable accident explanation is false.",
+      "incorrect": "Look for the combination of evidence that defeats the official cause of death, not just suspicious behavior.",
+      "next": "scene_016_final"
+    },
+    "scene_016_final": {
+      "round": 5,
+      "type": "final",
+      "title": "Final Accusation",
+      "text": "You have enough to decide who killed Julian Cross, why they did it, how the death was staged, and what evidence destroys the accident story."
+    }
+  },
+  "timed_progression": {
+    "round_thresholds": {
+      "2": "08:00",
+      "3": "16:00",
+      "4": "28:00",
+      "5": "40:00"
+    },
+    "timed_evidence_releases": [
+      {
+        "time": "05:00",
+        "evidence": [
+          "service_corridor_camera_gap"
+        ],
+        "label": "Camera review unlocked"
+      },
+      {
+        "time": "13:00",
+        "evidence": [
+          "vet_clearance_addendum"
+        ],
+        "label": "Vet clearance addendum received"
+      },
+      {
+        "time": "22:00",
+        "evidence": [
+          "tommys_odds_call_note"
+        ],
+        "label": "Betting note released"
+      },
+      {
+        "time": "36:00",
+        "evidence": [
+          "preimpact_incapacitation"
+        ],
+        "label": "Medical finding released"
+      }
+    ],
+    "timed_topic_unlocks": {
+      "marlon_corridor": "11:00",
+      "eddie_timeline_change": "15:00",
+      "diane_clearance": "14:00",
+      "tommy_staff_contact": "23:00"
+    }
+  }
+}

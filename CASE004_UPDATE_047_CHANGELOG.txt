@@ -1,0 +1,19 @@
+CASE 004 UPDATE 047
+
+Verified features included:
+- Added timed clue releases to Case 004
+- Added timed interview-topic unlocks to Case 004
+- Added an Optional Deduction Panel during time-locked phases
+- Added pending file update notices to Scene, Checkpoint, Clues, and Interviews
+
+Timed evidence releases in this build:
+- 05:00 Camera review unlocked
+- 13:00 Vet clearance addendum received
+- 22:00 Betting note released
+- 36:00 Medical finding released
+
+Timed interview unlocks in this build:
+- 11:00 Marlon corridor topic
+- 14:00 Diane clearance topic
+- 15:00 Eddie revised timeline topic
+- 23:00 Tommy staff contact topic

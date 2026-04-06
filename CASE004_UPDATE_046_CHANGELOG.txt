@@ -1,0 +1,14 @@
+CASE 004 UPDATE 046
+
+Verified features included:
+- Added timed progression gates to Case 004
+- Round checkpoints now require both investigation progress and minimum elapsed time
+- Checkpoint tab now shows a live countdown when a round is still time-locked
+- Added timed progression rules to Instructions
+- Added timed progression note to the Storyline tab
+
+Timed thresholds in this build:
+- Round 2 checkpoint: 08:00
+- Round 3 checkpoint: 16:00
+- Round 4 checkpoint: 28:00
+- Round 5 checkpoint: 40:00

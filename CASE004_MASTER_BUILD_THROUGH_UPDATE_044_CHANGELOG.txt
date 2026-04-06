@@ -1,0 +1,34 @@
+CASE 004 MASTER BUILD — THROUGH UPDATE 044
+
+Verified cumulative contents:
+- Standalone Case 004 build
+- Dead Heat case file included as case_004.json
+- Dead Heat artwork included as case_004_dead_heat.png
+- Hero graphic at the top of the screen in the header
+- Visible blurred darker background using the same artwork
+- Background layer stack corrected so the blurred art renders visibly behind the UI
+- Header shows Crime 004 title, subtitle, and Difficulty: Senior Detective
+- Storyline tab added
+- Narrative storyline intro added to set the scene
+- Go to Scene button added inside the Storyline tab
+- Checkpoint is its own tab
+- Checkpoint unlocks after required round actions are completed
+- Scene tab supports free investigation within the current round
+- Start counts as Attempt 1
+- Home hides after Start
+- New Attempt system retained
+- Instructions include exact scoring and attempt rules
+- Checkpoint auto-advance delay is 10 seconds
+- Between-round countdown overlay added
+- Checkpoint result explanation text is shown inside the countdown overlay
+- Final accusation timer stops immediately on submit
+- Final accusation can only be submitted once per attempt
+- Final answer choices are locked after submission
+- Final submit button is disabled after submission
+- Final submit triggers the full success/retry result flow
+- Unlock/retry result flow retained
+- Full result summary appears in success box
+- Full result summary appears in retry box for Partial and Failed
+- Active Run panel reduced in size
+- Final accusation answer order mixed so correct answers are not always first
+- Success promotion path updated for Case 004
